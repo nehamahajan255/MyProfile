@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> registration form</title>
+    </head>
+    <body>
+<h3> students registration form</h3>
+
+<form>
+     <fieldset> <!-- fieldset for box/set -->
+        <legend> <span> student registration form</span></legend>
+    
+    <table>
+        <tbody>
+            <tr> 
+            <td><label for> first name</label> </td> <!-- label for for user understanding not necessary -->
+            <td><input type="text" id="first name" autofocus placeholder="name without space"> </td>
+            </tr>
+            <tr> 
+                <td><label for>last name</label> </td>
+                <td> <input type="text" id="last name"maxlength="7"></td>
+            </tr>
+            <tr>
+                <td><label > mobile number with country code</label></td>
+                <td> <input type="number" required maxlength="10" placeholder="enter with country code"></td>
+            </tr>
+            
+            <tr>
+                <td> <label> email</label></td>
+                <td> <input type="email"required></td>
+            </tr>
+            <tr> 
+                <td> <label> password</label></td>
+                <td> <input type="password"required></td>
+            </tr>
+            <tr>
+                <td><label> country name</label></td>
+                <td><input type="text" value="India" readonly></td>
+            </tr>
+            <tr>
+                <td> <label> do u hv bank account</label></td>
+               <td><input type="text" value="yes" disable></td> 
+            </tr>
+            <tr>
+                <td> <label> DOB</label></td>
+                <td> <input type="date"></td>
+            </tr>
+            <tr> 
+                <td> <label> available in week</label></td>
+                <td> <input type="week"></td>
+            </tr>
+            <tr>
+                <td><label> select profile photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label> selct certificate</label></td>
+                <td><input type="file" multiple></td>
+            </tr>
+            <tr>
+                <td> <label> Select gender</label></td>
+                <td> <input type="radio" name="gender">
+                <label> male</label><br>
+
+                <input type="radio"name="gender">
+                <label> female</label> <br>
+
+                <input type="radio" name="gender">
+                <label> transgender</label></td>
+
+            </tr>
+            <tr>
+                <td> <label> selet graduation</label>
+                <td> 
+                    <select>
+                        <option> BE</option>
+                        <OPTION> BTECH</OPTION>
+                        <option> ME</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label> select option</label></td>
+               <td> <select>
+                    <optgroup label="BE">
+                        <option> civil</option>
+                        <option> mech</option>
+                        <option> IT</option>
+                        <OPTION> E&TC</OPTION>
+                    </optgroup>
+                    <optgroup label="MCA">
+                        <option> comp</option>
+                        <option> IT</option>
+                    </optgroup>
+                </select>
+            </td>
+               
+            </tr>
+            <tr>
+                <td><label> select training</label></td>
+                <td><input type="checkbox" >
+                <label> angular</label>
+                <input type="checkbox">
+                    <label> java</label>
+                    <input type="checkbox">
+                        <label> testing</label></td>
+
+            </tr>
+            
+            <tr> 
+                <td> <label> address</label></td>
+                <td><textarea cols="150" rows="7"></textarea> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="submit"></td>
+                <td> <input type="reset"></td>
+            </tr>
+        </tbody>
+    </table>
+</fieldset>
+</form>
+
+
+
+    </body>
+</html>
